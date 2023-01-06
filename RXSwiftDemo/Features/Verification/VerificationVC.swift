@@ -21,7 +21,7 @@ class VerificationVC: UIViewController {
     @IBOutlet weak var resendButton: UIButton!
     @IBOutlet weak var firstCodeTF: AEOTPTextField!
     
-    var timeLeft: Int = 5 {
+    var timeLeft: Int = 1 {
         didSet {
             if timeLeft > 0 {
                 resendButton.isUserInteractionEnabled = false
@@ -68,6 +68,8 @@ class VerificationVC: UIViewController {
     
     @IBAction func resendButtonTapped(_ sender: Any) {
         print("resend Code")
+        let stretchyVC = SceneContainer.getStretchyHeaderVC()
+        self.navigationController?.pushViewController(stretchyVC, animated: true)
     }
 }
 extension VerificationVC: AEOTPTextFieldDelegate {

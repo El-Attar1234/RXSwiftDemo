@@ -13,6 +13,8 @@ pod 'Moya/RxSwift'
 pod 'MZTimerLabel'
 pod 'AEOTPTextField'
 pod "GSKStretchyHeaderView"
+ pod 'ParallaxHeader'
+pod 'TwitterProfile'
 
 
 end

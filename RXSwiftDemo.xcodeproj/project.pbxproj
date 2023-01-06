@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8423EBA72965F75700AC2066 /* StrectchyHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBA52965F75700AC2066 /* StrectchyHeaderVC.swift */; };
+		8423EBA82965F75700AC2066 /* StrectchyHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBA62965F75700AC2066 /* StrectchyHeaderVC.xib */; };
+		8423EBAC2965F7B700AC2066 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBAA2965F7B700AC2066 /* ItemCell.swift */; };
+		8423EBAD2965F7B700AC2066 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBAB2965F7B700AC2066 /* ItemCell.xib */; };
+		8423EBB12965FBDB00AC2066 /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBAF2965FBDB00AC2066 /* StretchyHeader.swift */; };
+		8423EBB22965FBDB00AC2066 /* StretchyHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBB02965FBDB00AC2066 /* StretchyHeader.xib */; };
+		8423EBB52966038E00AC2066 /* UIView+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBB42966038E00AC2066 /* UIView+Blur.swift */; };
+		8423EBB92966F01000AC2066 /* InstgramStoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBB72966F01000AC2066 /* InstgramStoriesVC.swift */; };
+		8423EBBA2966F01000AC2066 /* InstgramStoriesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBB82966F01000AC2066 /* InstgramStoriesVC.xib */; };
+		8423EBBE2966F3A500AC2066 /* story.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBBC2966F36B00AC2066 /* story.mp4 */; };
+		8423EBC22967190100AC2066 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBC02967190100AC2066 /* ContentViewController.swift */; };
+		8423EBC32967190100AC2066 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBC12967190100AC2066 /* ContentViewController.xib */; };
+		8423EBC729683C0700AC2066 /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBC529683C0700AC2066 /* PreviewVC.swift */; };
+		8423EBC829683C0700AC2066 /* PreviewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBC629683C0700AC2066 /* PreviewVC.xib */; };
+		8423EBCB2968408700AC2066 /* SegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBCA2968408700AC2066 /* SegmentedProgressBar.swift */; };
 		842C46A92956DE6D00E42BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C46A82956DE6D00E42BBA /* AppDelegate.swift */; };
 		842C46AB2956DE6D00E42BBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C46AA2956DE6D00E42BBA /* SceneDelegate.swift */; };
 		842C46AD2956DE6D00E42BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C46AC2956DE6D00E42BBA /* ViewController.swift */; };
@@ -37,6 +52,21 @@
 
 /* Begin PBXFileReference section */
 		5197825AB6F99CA863F0EF8B /* Pods-RXSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftDemo/Pods-RXSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8423EBA52965F75700AC2066 /* StrectchyHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrectchyHeaderVC.swift; sourceTree = "<group>"; };
+		8423EBA62965F75700AC2066 /* StrectchyHeaderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrectchyHeaderVC.xib; sourceTree = "<group>"; };
+		8423EBAA2965F7B700AC2066 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		8423EBAB2965F7B700AC2066 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		8423EBAF2965FBDB00AC2066 /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
+		8423EBB02965FBDB00AC2066 /* StretchyHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StretchyHeader.xib; sourceTree = "<group>"; };
+		8423EBB42966038E00AC2066 /* UIView+Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Blur.swift"; sourceTree = "<group>"; };
+		8423EBB72966F01000AC2066 /* InstgramStoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstgramStoriesVC.swift; sourceTree = "<group>"; };
+		8423EBB82966F01000AC2066 /* InstgramStoriesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstgramStoriesVC.xib; sourceTree = "<group>"; };
+		8423EBBC2966F36B00AC2066 /* story.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = story.mp4; sourceTree = "<group>"; };
+		8423EBC02967190100AC2066 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		8423EBC12967190100AC2066 /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		8423EBC529683C0700AC2066 /* PreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
+		8423EBC629683C0700AC2066 /* PreviewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewVC.xib; sourceTree = "<group>"; };
+		8423EBCA2968408700AC2066 /* SegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBar.swift; sourceTree = "<group>"; };
 		842C46A52956DE6D00E42BBA /* RXSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842C46A82956DE6D00E42BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842C46AA2956DE6D00E42BBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +127,86 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8423EBA42965F65500AC2066 /* StrectchyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBAE2965FBC300AC2066 /* Header */,
+				8423EBA92965F79E00AC2066 /* Cell */,
+				8423EBA52965F75700AC2066 /* StrectchyHeaderVC.swift */,
+				8423EBA62965F75700AC2066 /* StrectchyHeaderVC.xib */,
+			);
+			path = StrectchyHeader;
+			sourceTree = "<group>";
+		};
+		8423EBA92965F79E00AC2066 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBAA2965F7B700AC2066 /* ItemCell.swift */,
+				8423EBAB2965F7B700AC2066 /* ItemCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8423EBAE2965FBC300AC2066 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBAF2965FBDB00AC2066 /* StretchyHeader.swift */,
+				8423EBB02965FBDB00AC2066 /* StretchyHeader.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		8423EBB32966037B00AC2066 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBB42966038E00AC2066 /* UIView+Blur.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		8423EBB62966EFF200AC2066 /* InstgramStories */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBB72966F01000AC2066 /* InstgramStoriesVC.swift */,
+				8423EBB82966F01000AC2066 /* InstgramStoriesVC.xib */,
+			);
+			path = InstgramStories;
+			sourceTree = "<group>";
+		};
+		8423EBBB2966F35D00AC2066 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBBC2966F36B00AC2066 /* story.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		8423EBBF296718EA00AC2066 /* ContentStories */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBC02967190100AC2066 /* ContentViewController.swift */,
+				8423EBC12967190100AC2066 /* ContentViewController.xib */,
+			);
+			path = ContentStories;
+			sourceTree = "<group>";
+		};
+		8423EBC429683BF000AC2066 /* PreviewVC */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBC529683C0700AC2066 /* PreviewVC.swift */,
+				8423EBC629683C0700AC2066 /* PreviewVC.xib */,
+			);
+			path = PreviewVC;
+			sourceTree = "<group>";
+		};
+		8423EBC92968406C00AC2066 /* SegementedProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				8423EBCA2968408700AC2066 /* SegmentedProgressBar.swift */,
+			);
+			path = SegementedProgressBar;
+			sourceTree = "<group>";
+		};
 		842C469C2956DE6D00E42BBA = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +228,7 @@
 		842C46A72956DE6D00E42BBA /* RXSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8423EBBB2966F35D00AC2066 /* Videos */,
 				8449B6E02960738C00DCF409 /* Features */,
 				8449B6CF2959EAC000DCF409 /* Extensions */,
 				8449B6BA2959889D00DCF409 /* Data */,
@@ -146,6 +257,7 @@
 		8449B6C32959BF7600DCF409 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8423EBC92968406C00AC2066 /* SegementedProgressBar */,
 				8449B6C42959BF7600DCF409 /* Navigation */,
 			);
 			path = Services;
@@ -182,6 +294,7 @@
 		8449B6CF2959EAC000DCF409 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8423EBB32966037B00AC2066 /* UIView */,
 				8449B6D02959EAD700DCF409 /* UICollectionView+Extension.swift */,
 				8449B6F02960DD2C00DCF409 /* UIViewController+Extension.swift */,
 			);
@@ -209,6 +322,10 @@
 		8449B6E02960738C00DCF409 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				8423EBBF296718EA00AC2066 /* ContentStories */,
+				8423EBC429683BF000AC2066 /* PreviewVC */,
+				8423EBB62966EFF200AC2066 /* InstgramStories */,
+				8423EBA42965F65500AC2066 /* StrectchyHeader */,
 				8449B6E62960D30000DCF409 /* MenuTab */,
 				8449B6C92959BF8600DCF409 /* Home */,
 				8449B6E12960739500DCF409 /* Verification */,
@@ -306,12 +423,19 @@
 			files = (
 				8449B6D6295C563400DCF409 /* DemoCell.xib in Resources */,
 				842C46B52956DE6F00E42BBA /* LaunchScreen.storyboard in Resources */,
+				8423EBB22965FBDB00AC2066 /* StretchyHeader.xib in Resources */,
 				8449B6E5296073B100DCF409 /* VerificationVC.xib in Resources */,
 				8449B6CE2959BFA100DCF409 /* HomeVC.xib in Resources */,
+				8423EBC32967190100AC2066 /* ContentViewController.xib in Resources */,
+				8423EBAD2965F7B700AC2066 /* ItemCell.xib in Resources */,
 				8449B6DB295C579400DCF409 /* HeaderView.xib in Resources */,
 				842C46B22956DE6F00E42BBA /* Assets.xcassets in Resources */,
+				8423EBC829683C0700AC2066 /* PreviewVC.xib in Resources */,
 				842C46B02956DE6D00E42BBA /* Main.storyboard in Resources */,
+				8423EBA82965F75700AC2066 /* StrectchyHeaderVC.xib in Resources */,
 				8449B6EA2960D32200DCF409 /* MenuTabsVC.xib in Resources */,
+				8423EBBE2966F3A500AC2066 /* story.mp4 in Resources */,
+				8423EBBA2966F01000AC2066 /* InstgramStoriesVC.xib in Resources */,
 				8449B6EF2960D51D00DCF409 /* TabCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,11 +490,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8449B6F12960DD2C00DCF409 /* UIViewController+Extension.swift in Sources */,
+				8423EBB52966038E00AC2066 /* UIView+Blur.swift in Sources */,
 				8449B6C72959BF7600DCF409 /* AppManager.swift in Sources */,
+				8423EBAC2965F7B700AC2066 /* ItemCell.swift in Sources */,
+				8423EBB92966F01000AC2066 /* InstgramStoriesVC.swift in Sources */,
 				842C46AD2956DE6D00E42BBA /* ViewController.swift in Sources */,
+				8423EBB12965FBDB00AC2066 /* StretchyHeader.swift in Sources */,
 				8449B6EE2960D51D00DCF409 /* TabCell.swift in Sources */,
+				8423EBC22967190100AC2066 /* ContentViewController.swift in Sources */,
 				842C46A92956DE6D00E42BBA /* AppDelegate.swift in Sources */,
 				8449B6CD2959BFA100DCF409 /* HomeVC.swift in Sources */,
+				8423EBCB2968408700AC2066 /* SegmentedProgressBar.swift in Sources */,
 				8449B6BC295988AF00DCF409 /* NetworkManager.swift in Sources */,
 				8449B6C82959BF7600DCF409 /* ScenesContainer.swift in Sources */,
 				8449B6D12959EAD700DCF409 /* UICollectionView+Extension.swift in Sources */,
@@ -380,7 +510,9 @@
 				8449B6D5295C563400DCF409 /* DemoCell.swift in Sources */,
 				8449B6BE29598A2A00DCF409 /* NetworkError.swift in Sources */,
 				842C46AB2956DE6D00E42BBA /* SceneDelegate.swift in Sources */,
+				8423EBA72965F75700AC2066 /* StrectchyHeaderVC.swift in Sources */,
 				842C46BD295716F000E42BBA /* ObservablesCreator.swift in Sources */,
+				8423EBC729683C0700AC2066 /* PreviewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

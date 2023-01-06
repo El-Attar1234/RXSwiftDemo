@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import TwitterProfile
 
 class HomeVC: UIViewController {
     @IBOutlet weak var myCollectionView: UICollectionView! {
@@ -17,6 +17,8 @@ class HomeVC: UIViewController {
             myCollectionView.dataSource = self
         }
     }
+ //   weak var pageDelegate: BottomPageDelegate?
+    
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         print("Life init(nibName nibNameOrNil")
@@ -214,5 +216,26 @@ extension HomeVC: UICollectionViewDataSource {
         
         return header
     }
+    
+}
+
+extension HomeVC: PagerAwareProtocol{
+    var pageDelegate: TwitterProfile.BottomPageDelegate? {
+        get {
+            nil
+        }
+        set(newValue) {
+            
+        }
+    }
+    
+    var currentViewController: UIViewController? {
+        nil
+    }
+    
+    var pagerTabHeight: CGFloat? {
+        10
+    }
+    
     
 }

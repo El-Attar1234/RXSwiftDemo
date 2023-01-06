@@ -25,4 +25,21 @@ final class SceneContainer {
     class func getVerification() -> VerificationVC {
         VerificationVC()
     }
+    
+    class func getStretchyHeaderVC() -> StrectchyHeaderVC {
+        StrectchyHeaderVC()
+    }
+    class func getInstgramStoriesVC() -> InstgramStoriesVC {
+        InstgramStoriesVC()
+    }
+    
+    class func getContentViewController() -> ContentViewController {
+        ContentViewController()
+    }
+    
+    class func getPreviewVc() -> PreviewVC {
+        PreviewVC()
+    }
+    
+    
 }
