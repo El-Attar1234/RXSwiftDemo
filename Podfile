@@ -15,6 +15,10 @@ pod 'AEOTPTextField'
 pod "GSKStretchyHeaderView"
  pod 'ParallaxHeader'
 pod 'TwitterProfile'
+pod 'RxCocoa'
+pod 'JVFloatLabeledTextField'
+pod 'MaterialComponents/TextFields'
+pod 'MaterialComponents/TextControls+OutlinedTextAreas'
 
 
 end

@@ -22,6 +22,10 @@
 		8423EBC729683C0700AC2066 /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBC529683C0700AC2066 /* PreviewVC.swift */; };
 		8423EBC829683C0700AC2066 /* PreviewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EBC629683C0700AC2066 /* PreviewVC.xib */; };
 		8423EBCB2968408700AC2066 /* SegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EBCA2968408700AC2066 /* SegmentedProgressBar.swift */; };
+		8423EC0C2969FB0000AC2066 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EC0A2969FB0000AC2066 /* LoginVC.swift */; };
+		8423EC0D2969FB0000AC2066 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423EC0B2969FB0000AC2066 /* LoginVC.xib */; };
+		8423EC10296A085400AC2066 /* CustomOutlinedTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EC0F296A085400AC2066 /* CustomOutlinedTxtField.swift */; };
+		8423EC13296B629A00AC2066 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423EC12296B629A00AC2066 /* LoginViewModel.swift */; };
 		842C46A92956DE6D00E42BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C46A82956DE6D00E42BBA /* AppDelegate.swift */; };
 		842C46AB2956DE6D00E42BBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C46AA2956DE6D00E42BBA /* SceneDelegate.swift */; };
 		842C46AD2956DE6D00E42BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C46AC2956DE6D00E42BBA /* ViewController.swift */; };
@@ -67,6 +71,10 @@
 		8423EBC529683C0700AC2066 /* PreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
 		8423EBC629683C0700AC2066 /* PreviewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewVC.xib; sourceTree = "<group>"; };
 		8423EBCA2968408700AC2066 /* SegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBar.swift; sourceTree = "<group>"; };
+		8423EC0A2969FB0000AC2066 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8423EC0B2969FB0000AC2066 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		8423EC0F296A085400AC2066 /* CustomOutlinedTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOutlinedTxtField.swift; sourceTree = "<group>"; };
+		8423EC12296B629A00AC2066 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		842C46A52956DE6D00E42BBA /* RXSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842C46A82956DE6D00E42BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842C46AA2956DE6D00E42BBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +215,32 @@
 			path = SegementedProgressBar;
 			sourceTree = "<group>";
 		};
+		8423EC092969FAEC00AC2066 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8423EC11296B628600AC2066 /* ViewModel */,
+				8423EC0A2969FB0000AC2066 /* LoginVC.swift */,
+				8423EC0B2969FB0000AC2066 /* LoginVC.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8423EC0E296A083F00AC2066 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8423EC0F296A085400AC2066 /* CustomOutlinedTxtField.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		8423EC11296B628600AC2066 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8423EC12296B629A00AC2066 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		842C469C2956DE6D00E42BBA = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +262,7 @@
 		842C46A72956DE6D00E42BBA /* RXSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8423EC0E296A083F00AC2066 /* Custom */,
 				8423EBBB2966F35D00AC2066 /* Videos */,
 				8449B6E02960738C00DCF409 /* Features */,
 				8449B6CF2959EAC000DCF409 /* Extensions */,
@@ -322,6 +357,7 @@
 		8449B6E02960738C00DCF409 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				8423EC092969FAEC00AC2066 /* Login */,
 				8423EBBF296718EA00AC2066 /* ContentStories */,
 				8423EBC429683BF000AC2066 /* PreviewVC */,
 				8423EBB62966EFF200AC2066 /* InstgramStories */,
@@ -427,6 +463,7 @@
 				8449B6E5296073B100DCF409 /* VerificationVC.xib in Resources */,
 				8449B6CE2959BFA100DCF409 /* HomeVC.xib in Resources */,
 				8423EBC32967190100AC2066 /* ContentViewController.xib in Resources */,
+				8423EC0D2969FB0000AC2066 /* LoginVC.xib in Resources */,
 				8423EBAD2965F7B700AC2066 /* ItemCell.xib in Resources */,
 				8449B6DB295C579400DCF409 /* HeaderView.xib in Resources */,
 				842C46B22956DE6F00E42BBA /* Assets.xcassets in Resources */,
@@ -497,7 +534,9 @@
 				842C46AD2956DE6D00E42BBA /* ViewController.swift in Sources */,
 				8423EBB12965FBDB00AC2066 /* StretchyHeader.swift in Sources */,
 				8449B6EE2960D51D00DCF409 /* TabCell.swift in Sources */,
+				8423EC13296B629A00AC2066 /* LoginViewModel.swift in Sources */,
 				8423EBC22967190100AC2066 /* ContentViewController.swift in Sources */,
+				8423EC0C2969FB0000AC2066 /* LoginVC.swift in Sources */,
 				842C46A92956DE6D00E42BBA /* AppDelegate.swift in Sources */,
 				8449B6CD2959BFA100DCF409 /* HomeVC.swift in Sources */,
 				8423EBCB2968408700AC2066 /* SegmentedProgressBar.swift in Sources */,
@@ -508,6 +547,7 @@
 				8449B6DA295C579400DCF409 /* HeaderView.swift in Sources */,
 				8449B6E92960D32200DCF409 /* MenuTabsVC.swift in Sources */,
 				8449B6D5295C563400DCF409 /* DemoCell.swift in Sources */,
+				8423EC10296A085400AC2066 /* CustomOutlinedTxtField.swift in Sources */,
 				8449B6BE29598A2A00DCF409 /* NetworkError.swift in Sources */,
 				842C46AB2956DE6D00E42BBA /* SceneDelegate.swift in Sources */,
 				8423EBA72965F75700AC2066 /* StrectchyHeaderVC.swift in Sources */,

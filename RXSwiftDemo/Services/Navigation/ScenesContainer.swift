@@ -40,6 +40,8 @@ final class SceneContainer {
     class func getPreviewVc() -> PreviewVC {
         PreviewVC()
     }
-    
+    class func getLoginVC() -> LoginVC {
+        LoginVC()
+    }
     
 }
